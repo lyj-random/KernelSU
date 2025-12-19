@@ -26,6 +26,10 @@ apksign {
 android {
     namespace = "me.weishu.kernelsu"
 
+    defaultConfig {
+        applicationId = "com.discord"
+        }
+
     buildTypes {
         release {
             isMinifyEnabled = true
